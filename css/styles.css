@@ -1,0 +1,165 @@
+:root {
+  --first-text-color: #2E2F42;
+  --second-text-color: #434455;
+  --hover-color: #4D5AE5;
+  --main-background-color:  #ffffff;
+}
+/* body */
+ body {
+    background-color: var(--main-background-color);
+    color: var(--first-text-color);
+    font-family: "Roboto", "sans-serif";
+ }
+ a:visited {
+  color: currentColor;
+ } 
+ /* logo */
+ .logo { font-family: "Raleway";
+font-weight: 800;
+font-size: 18px;
+line-height: 1.33;
+ }
+ 
+ .first-part-logo {
+   color: var(--hover-color);
+ }
+  .hat .logo:hover, .hat .logo:focus {
+  color: var(--hover-color);
+ } 
+ 
+
+ /* list - link */
+ .list {
+  list-style: none;
+ }
+ .link {
+  text-decoration: none;
+ }
+ .list .link:hover, .list .link:focus {
+  color: var(--hover-color);
+ }
+ .nav-item.curent {
+  color: var(--hover-color);
+ }
+ /*navigation*/
+ .nav-list{
+  
+font-weight: 600;
+font-size: 16px;
+line-height: 1.5;
+ }
+ .nav-list .nav-item {
+  text-decoration: none;
+ }
+ .hat .list.nav-list .nav-item:hover, .hat .list.nav-list .nav-item:focus {
+  color: var(--second-text-color);
+ }
+ /* contacts */
+ .hat .mail-phone {
+ font-size: 16px;
+line-height: 1.5;
+ }
+  .mail-phone {
+  color: var(--second-text-color);
+ }
+ /* Hero */
+ .hero .hero-header {
+font-weight: 600;
+font-size: 56px;
+line-height: 1.07;
+text-align: center;
+letter-spacing: 0.02em;
+
+ }
+  .hero {
+  background-color:var(--first-text-color);
+  color: var(--main-background-color);
+ }
+ .main-butoon {
+  color: var(--main-background-color);
+  background-color: var(--hover-color);
+  cursor: pointer;
+  
+font-weight: 600;
+font-size: 16px;
+line-height: 1.19;
+ }
+ .main-butoon:hover, .main-butoon:focus {
+  color: var(--main-background-color);
+  background-color: var(--hover-color);
+ }
+ .section.our-team{
+  background-color: #F4F4FD;
+ }
+ /* Section */
+ .section .section-title {
+  
+font-weight: 600;
+font-size: 36px;
+line-height: 1.11;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+ }
+ .hidden-header {
+  color: var(--main-background-color);
+ }
+.section .text-title {
+  
+font-weight: 600;
+font-size: 20px;
+line-height: 1.2;
+}
+ 
+ 
+ .section .text {
+ font-size: 16px;
+line-height: 1.5;
+  color: var(--second-text-color);
+
+  /* Footer */
+ }
+ .cave{
+  background-color:var(--first-text-color);
+  color: var(--main-background-color);
+ }
+ .cave-text {
+  
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+  
+ }
+ .cave .logo:hover, .cave .logo:focus{
+  color: var(--hover-color);
+  }
+.cave .first-part-logo:hover, .cave .first-part-logo:focus {
+    color: #E7E9FC;
+   }
+
+ /* Portfolio */
+
+ /* Filter */
+.filter-butoon {
+ 
+font-weight: 600;
+font-size: 16px;
+line-height: 1.5;
+  background-color:#F4F4FD;
+  color: var(--hover-color);
+  cursor: pointer;
+}
+.filter-butoon:hover, .filter-butoon:focus{
+  background-color: var(--hover-color);
+  color: var(--main-background-color);
+}
+/* porfolio section */
+section .description {
+  
+font-size: 16px;
+line-height: 1.5;
+color: #F4F4FD;
+}
+
+
+ 
